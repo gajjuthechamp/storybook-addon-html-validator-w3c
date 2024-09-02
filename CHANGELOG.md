@@ -1,3 +1,18 @@
+# v1.0.5 (Tue Sep 03 2024)
+
+#### ⚠️ Pushed to `main`
+
+- updated package name to be unique (gajendra.singh@digitas.com)
+- publish fix (gajendra.singh@digitas.com)
+- added files to root (gajendra.singh@digitas.com)
+- first draft of the html validator (gajendra.singh@digitas.com)
+
+#### Authors: 1
+
+- gajsingh (gajendra.singh@digitas.com)
+
+---
+
 # v1.0.4 (Tue Sep 03 2024)
 
 #### ⚠️ Pushed to `main`
