@@ -160,9 +160,9 @@ const config: StorybookConfig = {
   addons: [
     '@storybook/essentials',
     {
-      name: 'storybook-addon-html-validator',
+      name: 'storybook-addon-html-w3c-validator',
       options: {
-        // 👈 options for storybook-addon-html-validator go here
+        // 👈 options for storybook-addon-html-w3c-validator go here
       },
     },
   ],

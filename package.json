@@ -1,9 +1,9 @@
 {
-  "name": "storybook-addon-html-validator",
+  "name": "storybook-addon-html-w3c-validator",
   "version": "1.0.4",
   "description": "This addon provide a in tab view of all errors and warning in the component HTML",
   "keywords": [
-    "storybook-addon-html-validator storybook-addon",
+    "storybook-addon-html-validator", "storybook-addon-html-w3c-validator", "w3c-validator", "html-w3c-validator", "html-w3c", "storybook-addon",
     "html-validator",
     "HTML",
     "Validator",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gajjuthechamp/storybook-addon-html-validator.git"
+    "url": "git+https://github.com/gajjuthechamp/storybook-addon-html-w3c-validator.git"
   },
   "type": "module",
   "license": "MIT",
