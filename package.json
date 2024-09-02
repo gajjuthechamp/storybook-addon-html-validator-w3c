@@ -1,9 +1,15 @@
 {
   "name": "storybook-addon-html-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This addon provide a in tab view of all errors and warning in the component HTML",
   "keywords": [
-    "storybook-addon-html-validator storybook-addon", "html-validator", "HTML", "Validator", "storybook-addons", "debug", "addon"
+    "storybook-addon-html-validator storybook-addon",
+    "html-validator",
+    "HTML",
+    "Validator",
+    "storybook-addons",
+    "debug",
+    "addon"
   ],
   "repository": {
     "type": "git",
@@ -100,7 +106,8 @@
   "storybook": {
     "displayName": "HTML Validator",
     "supportedFrameworks": [
-      "ReactJS", "storybook"
+      "ReactJS",
+      "storybook"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
