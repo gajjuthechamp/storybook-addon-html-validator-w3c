@@ -1,3 +1,17 @@
+# v1.0.3 (Tue Sep 03 2024)
+
+#### ⚠️ Pushed to `main`
+
+- publish fix (gajendra.singh@digitas.com)
+- added files to root (gajendra.singh@digitas.com)
+- first draft of the html validator (gajendra.singh@digitas.com)
+
+#### Authors: 1
+
+- gajsingh (gajendra.singh@digitas.com)
+
+---
+
 # v1.0.2 (Tue Sep 03 2024)
 
 #### ⚠️ Pushed to `main`
