@@ -80,6 +80,17 @@ const Description = styled.div(({ theme }) => ({
   textAlign: "left",
 }));
 
+const Code = styled.pre(({ theme }) => ({
+  background: "#000",
+  fontFamily: theme.typography.fonts.mono,
+  color: "#F00",
+  whiteSpace: "pre-wrap",
+  textAlign: "left",
+  margin: "10px 20px"
+}));
+
+    
+
 export const ListItem: React.FC<ListItemProps> = ({ item }) => {
   const [open, onToggle] = useState(false);
 
@@ -97,13 +108,10 @@ export const ListItem: React.FC<ListItemProps> = ({ item }) => {
       </Wrapper>
       {open ? 
         <Description>
-          <Placeholder>
-            <small>{item.fromTo}</small>
             <div>{item.description}</div>
-            <pre>{item.extract}</pre>
-          </Placeholder>
+            <Code >{item.extract}</Code>
+            <small>{item.fromTo}</small>
         </Description> 
-        
         : null}
     </WrapperOuter>
   );

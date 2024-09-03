@@ -40,14 +40,21 @@ function getSubstringBetweenQuotes(inputString: string): string {
 
 export const PanelContent: React.FC<PanelContentProps> = ({ code, showLineNumbers = false, wrapLines = false }) => {
   const theme = useTheme();
-  const [errors, setErrors] = useState<w3CItem[]>([]);
-  const [warnings, setWarnings] = useState<w3CItem[]>([]);
+  const [errors, setErrors] = useState<w3CItem[] | undefined>();
+  const [warnings, setWarnings] = useState<w3CItem[] | undefined>();
 
   const validateHtml = async (html: string) => {
     const validatorUrl = 'https://validator.w3.org/nu/?out=json';
+
+    const htmlContent = `<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Snippet Validation</title>
+    </head><body>
+            ${html}
+        </body></html>
+    `;
+
     
     try {
-      const response = await fetch(validatorUrl, {method: 'POST', headers: { 'Content-Type': 'text/html; charset=utf-8', }, body: html});
+      const response = await fetch(validatorUrl, {method: 'POST', headers: { 'Content-Type': 'text/html; charset=utf-8', }, body: htmlContent});
     
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -69,7 +76,6 @@ export const PanelContent: React.FC<PanelContentProps> = ({ code, showLineNumber
       setErrors(errorArr);
       setWarnings(warningArr);
 
-
     } catch (error) {
         console.error('Error validating HTML:', error);
     }
@@ -87,14 +93,14 @@ export const PanelContent: React.FC<PanelContentProps> = ({ code, showLineNumber
           {code}
         </SyntaxHighlighter>
       </div>
-      <div id="Error" title={`${errors.length} Errors`} color={theme.color.negative}>
-        {errors.length > 0 ? (
+      <div id="Error" title={`${errors && errors.length >0? errors.length:''} Errors`} color={theme.color.negative}>
+        {errors && errors.length > 0 ? (
             <Placeholder>
               <List
                 items={errors.map((item, index) => ({
-                  title: getSubstringBetweenQuotes(item.message),
+                  title: item.message, // getSubstringBetweenQuotes(item.message)
                   description: item.message,
-                  fromTo: `From Line ${item.firstLine} to ${item.lastLine}`,
+                  fromTo: `Check line ${item.lastLine}`,
                   extract : item.extract
                 }))}
               />
@@ -105,14 +111,14 @@ export const PanelContent: React.FC<PanelContentProps> = ({ code, showLineNumber
             </Placeholder>
           )}
       </div>
-      <div id="warning" title={`${warnings.length} Warning`} color={theme.color.warning}>
-        {warnings.length > 0 ? (
+      <div id="warning" title={`${warnings && warnings.length >0? warnings.length: ''} Warning`} color={theme.color.warning}>
+        {warnings && warnings.length > 0 ? (
             <Placeholder>
               <List
                 items={warnings.map((item, index) => ({
-                  title: getSubstringBetweenQuotes(item.message),
+                  title: item.message,
                   description: item.message,
-                  fromTo: `From Line ${item.firstLine} to ${item.lastLine}`,
+                  fromTo: `Check line ${item.lastLine}`,
                   extract : item.extract
                 }))}
               />
