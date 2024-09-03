@@ -10,7 +10,6 @@
  */
 import type { ProjectAnnotations, Renderer } from "@storybook/types";
 import { withHTML } from "./withHTML";
-import { KEY } from "./constants";
 
 
 /**
