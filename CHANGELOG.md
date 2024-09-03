@@ -1,3 +1,15 @@
+# v1.0.10 (Tue Sep 03 2024)
+
+#### ⚠️ Pushed to `main`
+
+- addeding version compatability (gsparihar28@gmail.com)
+
+#### Authors: 1
+
+- gajsingh (gsparihar28@gmail.com)
+
+---
+
 # v1.0.9 (Tue Sep 03 2024)
 
 #### ⚠️ Pushed to `main`
