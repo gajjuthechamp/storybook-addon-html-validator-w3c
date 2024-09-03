@@ -1,3 +1,16 @@
+# v1.0.9 (Tue Sep 03 2024)
+
+#### ⚠️ Pushed to `main`
+
+- addeding pre publish checks (gsparihar28@gmail.com)
+- resolving drp (gsparihar28@gmail.com)
+
+#### Authors: 1
+
+- gajsingh (gsparihar28@gmail.com)
+
+---
+
 # v1.0.8 (Tue Sep 03 2024)
 
 #### ⚠️ Pushed to `main`
