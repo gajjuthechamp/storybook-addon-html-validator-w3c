@@ -1,3 +1,15 @@
+# v1.0.7 (Tue Sep 03 2024)
+
+#### ⚠️ Pushed to `main`
+
+- updated email (gsparihar28@gmail.com)
+
+#### Authors: 1
+
+- gajsingh (gsparihar28@gmail.com)
+
+---
+
 # v1.0.6 (Tue Sep 03 2024)
 
 #### ⚠️ Pushed to `main`
