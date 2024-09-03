@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import style from "react-syntax-highlighter/dist/esm/styles/hljs/github";
 import SyntaxHighlighter from "./SyntaxHighlighter";
-import { Placeholder, TabsState } from "storybook/internal/components";
-import { useTheme } from "storybook/internal/theming";
+import { Placeholder, TabsState } from "@storybook/components";
+import { useTheme } from "@storybook/theming";
+
 import { List } from "./List";
 
 interface PanelContentProps {

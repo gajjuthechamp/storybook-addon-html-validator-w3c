@@ -8,7 +8,7 @@
  *
  * https://storybook.js.org/docs/react/writing-stories/decorators
  */
-import type { ProjectAnnotations, Renderer } from "storybook/internal/types";
+import type { ProjectAnnotations, Renderer } from "@storybook/types";
 import { withHTML } from "./withHTML";
 import { KEY } from "./constants";
 
@@ -19,10 +19,7 @@ import { KEY } from "./constants";
  */
 
 const preview: ProjectAnnotations<Renderer> = {
-  decorators: [withHTML],
-  initialGlobals: {
-    [KEY]: false,
-  },
+  decorators: [withHTML]
 };
 
 export default preview;

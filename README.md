@@ -45,3 +45,11 @@ Check the component in your storybook pannel addons
 ![gs3](https://github.com/user-attachments/assets/6286da57-7df6-48cb-94b5-ebd878be30d1)
 
 ![gs4](https://github.com/user-attachments/assets/a5f6356c-f950-4ef7-b2bc-3c068a2f3383)
+
+
+### Publish 
+- npx auto create-labels
+- npm run release (Check for 2FA)
+
+
+

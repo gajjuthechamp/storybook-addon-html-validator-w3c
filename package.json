@@ -57,6 +57,8 @@
   },
   "dependencies": {
     "@storybook/icons": "^1.2.10",
+    "@storybook/manager": "^8.2.9",
+    "@storybook/preview": "^8.2.9",
     "@storybook/react-webpack5": "^8.2.9"
   },
   "devDependencies": {
@@ -66,9 +68,15 @@
     "@storybook/addon-links": "0.0.0-pr-26654-sha-49d01553",
     "@storybook/addon-onboarding": "^8.2.9",
     "@storybook/blocks": "0.0.0-pr-26654-sha-49d01553",
+    "@storybook/components": "^7.0.0",
+    "@storybook/core-events": "^7.0.0",
+    "@storybook/manager-api": "^7.0.0",
+    "@storybook/preview-api": "^7.0.0",
     "@storybook/react": "^0.0.0-pr-26654-sha-49d01553",
     "@storybook/react-vite": "0.0.0-pr-26654-sha-49d01553",
     "@storybook/test": "0.0.0-pr-26654-sha-49d01553",
+    "@storybook/theming": "^7.0.0",
+    "@storybook/types": "^7.0.0",
     "@types/node": "^18.15.0",
     "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.21",

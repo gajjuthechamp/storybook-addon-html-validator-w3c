@@ -1,8 +1,5 @@
-import React from "react";
-import { addons, types } from "storybook/internal/manager-api";
-
+import { addons, types } from '@storybook/manager-api';
 import { Panel } from "./Panel";
-
 import { ADDON_ID, PANEL_ID, PARAM_KEY} from "./constants";
 
 /**
@@ -11,7 +8,7 @@ import { ADDON_ID, PANEL_ID, PARAM_KEY} from "./constants";
  */
 
 // Register the addon
-addons.register(ADDON_ID, (api) => {
+addons.register(ADDON_ID, () => {
   // Register a tool
   
 
