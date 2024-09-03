@@ -32,8 +32,10 @@ Done...
 Check the component in your storybook pannel addons
 
 ### Want to Buy me a Coffee ??
-### paypal: gsparihar28
+### paypal: gsparihar28  // 👈 👈 👈 👈 👈 👈 
 
+
+-----------------------------
 
 ## How it looks?
 ![gs1](https://github.com/user-attachments/assets/5f9d1adf-9707-4e17-a883-34ca5c66c1ea)
