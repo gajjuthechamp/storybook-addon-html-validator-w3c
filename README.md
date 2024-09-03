@@ -1,16 +1,5 @@
 # Storybook Addon HTML Validator
-This addon provide a in tab view of all errors and warning in the component HTML
-
-### Development scripts
-
-- `npm run start` runs babel in watch mode and starts Storybook
-- `npm run build` build and package your addon code
-
-### Switch from TypeScript to JavaScript
-
-Don't want to use TypeScript? We offer a handy eject command: `npm run eject-ts`
-
-This will convert all code to JS. It is a destructive process, so we recommended running this before you start writing any code.
+This addon provide a in tab view of all HTML validation errors and warning in the component HTML, W3C Validator service
 
 ### Install 
 
@@ -36,6 +25,7 @@ const config: StorybookConfig = {
 
 export default config;
 ```
+
 
 Done...
 
