@@ -3,12 +3,12 @@
 #### ⚠️ Pushed to `main`
 
 - Update README.md ([@gajjuthechamp](https://github.com/gajjuthechamp))
-- Added some formating (gajendra.singh@digitas.com)
+- Added some formating (gsparihar28@gmail.com)
 
 #### Authors: 2
 
 - [@gajjuthechamp](https://github.com/gajjuthechamp)
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -16,14 +16,14 @@
 
 #### ⚠️ Pushed to `main`
 
-- updated package name to be unique (gajendra.singh@digitas.com)
-- publish fix (gajendra.singh@digitas.com)
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- updated package name to be unique (gsparihar28@gmail.com)
+- publish fix (gsparihar28@gmail.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -31,13 +31,13 @@
 
 #### ⚠️ Pushed to `main`
 
-- publish fix (gajendra.singh@digitas.com)
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- publish fix (gsparihar28@gmail.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -45,13 +45,13 @@
 
 #### ⚠️ Pushed to `main`
 
-- publish fix (gajendra.singh@digitas.com)
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- publish fix (gsparihar28@gmail.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -59,12 +59,12 @@
 
 #### ⚠️ Pushed to `main`
 
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -72,12 +72,12 @@
 
 #### ⚠️ Pushed to `main`
 
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -85,12 +85,12 @@
 
 #### ⚠️ Pushed to `main`
 
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
 
 ---
 
@@ -98,9 +98,9 @@
 
 #### ⚠️ Pushed to `main`
 
-- added files to root (gajendra.singh@digitas.com)
-- first draft of the html validator (gajendra.singh@digitas.com)
+- added files to root (gsparihar28@gmail.com)
+- first draft of the html validator (gsparihar28@gmail.com)
 
 #### Authors: 1
 
-- gajsingh (gajendra.singh@digitas.com)
+- gajsingh (gsparihar28@gmail.com)
