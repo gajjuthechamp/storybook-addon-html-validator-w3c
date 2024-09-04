@@ -1,5 +1,17 @@
 # v2.0.4 (Wed Sep 04 2024)
 
+#### ⚠️ Pushed to `main`
+
+- updated packages version (gsparihar28@gmail.com)
+
+#### Authors: 1
+
+- gajsingh (gsparihar28@gmail.com)
+
+---
+
+# v2.0.4 (Wed Sep 04 2024)
+
 
 
 ---
