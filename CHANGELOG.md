@@ -1,3 +1,15 @@
+# v1.1.2 (Wed Sep 04 2024)
+
+#### ⚠️ Pushed to `main`
+
+- 1.2.0 (gsparihar28@gmail.com)
+
+#### Authors: 1
+
+- gajsingh (gsparihar28@gmail.com)
+
+---
+
 # v1.0.11 (Wed Sep 04 2024)
 
 #### ⚠️ Pushed to `main`
