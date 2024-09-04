@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-html-validator-w3c",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "This addon provide a in tab view of all errors and warning in the component HTML",
   "keywords": [
     "storybook-addon-html-validator",
@@ -91,9 +91,6 @@
     "typescript": "^5.5.4",
     "vite": "^5.3.5",
     "zx": "^7.2.3"
-  },
-  "peerDependencies": {
-    "storybook": "^8.2.8"
   },
   "overrides": {
     "storybook": "^8.2.8"
