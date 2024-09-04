@@ -7,7 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "storybook-addon-html-w3c-validator",
+    "storybook-addon-html-validator-w3c",
   ],
   framework: {
     name: "@storybook/react-vite",

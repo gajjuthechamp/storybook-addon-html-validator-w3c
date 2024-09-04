@@ -4,7 +4,7 @@ This addon provide a in tab view of all HTML validation errors and warning in th
 ### Install 
 
 ```sh
-npm i storybook-addon-html-w3c-validator
+npm i storybook-addon-html-validator-w3c
 ```
 
 Then, register it as an addon in `.storybook/main.js`.
@@ -19,7 +19,7 @@ const config: StorybookConfig = {
   // ...rest of config
   addons: [
     '@storybook/addon-essentials'
-    'storybook-addon-html-w3c-validator', // 👈 register the addon here
+    'storybook-addon-html-validator-w3c', // 👈 register the addon here
   ],
 };
 
