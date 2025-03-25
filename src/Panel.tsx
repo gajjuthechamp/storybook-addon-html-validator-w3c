@@ -46,8 +46,6 @@ export const Panel: React.FC<PanelProps> = (props) => {
   const [formattedCode, setFormattedCode] = useState<string | null>(null);
 
   useEffect(() => {
-    console.log("==================code1-=====")
-    console.log(code)
     formatCode(code).then(setFormattedCode);
   }, [code, formatCode]);
 
