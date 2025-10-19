@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
-import { styled } from "@storybook/theming";
-import { ActionBar, ScrollArea, SyntaxHighlighterProps } from "@storybook/components";
+import { styled } from "storybook/theming";
+import { ActionBar, ScrollArea, SyntaxHighlighterProps } from "storybook/internal/components";
 import ReactSyntaxHighlighter, { SyntaxHighlighterProps as ReactSyntaxHighlighterProps } from "react-syntax-highlighter";
 
 type PreProps = {

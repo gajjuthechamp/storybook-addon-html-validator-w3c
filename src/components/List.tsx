@@ -1,6 +1,6 @@
 import { ArrowDownIcon } from "@storybook/icons";
 import React, { useState } from "react";
-import { styled } from "@storybook/theming";
+import { styled } from "storybook/theming";
 
 type Item = {
   title: string;
