@@ -1,9 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
-import {
-  useAddonState,
-  useChannel,
-  useParameter,
-} from "@storybook/manager-api";
+import { useAddonState, useChannel, useParameter } from "storybook/manager-api";
 import { AddonPanel } from "storybook/internal/components";
 import { ADDON_ID, EVENTS, PARAM_KEY } from "./constants";
 import { PanelContent } from "./components/PanelContent";
@@ -28,30 +24,24 @@ export const Panel: React.FC<PanelProps> = (props) => {
     prettier = {},
   } = parameters;
 
-  const prettierConfig: PrettierOption = React.useMemo(
-    () => ({
-      htmlWhitespaceSensitivity: "ignore",
-      ...prettier,
-      parser: "html",
-      plugins: [prettierHtml],
-    }),
-    [prettier]
-  );
+  const prettierConfig: PrettierOption = React.useMemo(() => ({
+    htmlWhitespaceSensitivity: "ignore",
+    ...prettier,
+    parser: "html",
+    plugins: [prettierHtml],
+  }), [prettier]);
 
-  const formatCode = useCallback(
-    async (code: string | null) => {
-      if (code) {
-        try {
-          return await prettierFormat(code, prettierConfig);
-        } catch (error) {
-          console.error(error);
-          return code; // Return the original code if formatting fails
-        }
+  const formatCode = useCallback(async (code: string | null) => {
+    if (code) {
+      try {
+        return await prettierFormat(code, prettierConfig);
+      } catch (error) {
+        console.error(error);
+        return code; // Return the original code if formatting fails
       }
-      return null;
-    },
-    [prettierConfig]
-  );
+    }
+    return null;
+  }, [prettierConfig]);
 
   const [formattedCode, setFormattedCode] = useState<string | null>(null);
 
@@ -67,11 +57,7 @@ export const Panel: React.FC<PanelProps> = (props) => {
 
   return (
     <AddonPanel {...props}>
-      <PanelContent
-        code={formattedCode}
-        showLineNumbers={showLineNumbers}
-        wrapLines={wrapLines}
-      />
+      <PanelContent code={formattedCode} showLineNumbers={showLineNumbers} wrapLines={wrapLines} />
     </AddonPanel>
   );
 };
