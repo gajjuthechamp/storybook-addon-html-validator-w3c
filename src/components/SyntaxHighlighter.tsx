@@ -1,7 +1,13 @@
 import React, { useState, useCallback, useEffect } from "react";
-import { styled } from "@storybook/theming";
-import { ActionBar, ScrollArea, SyntaxHighlighterProps } from "@storybook/components";
-import ReactSyntaxHighlighter, { SyntaxHighlighterProps as ReactSyntaxHighlighterProps } from "react-syntax-highlighter";
+import { styled } from "storybook/theming";
+import {
+  ActionBar,
+  ScrollArea,
+  SyntaxHighlighterProps,
+} from "storybook/internal/components";
+import ReactSyntaxHighlighter, {
+  SyntaxHighlighterProps as ReactSyntaxHighlighterProps,
+} from "react-syntax-highlighter";
 
 type PreProps = {
   padded?: boolean;
@@ -55,17 +61,20 @@ export default function SyntaxHighlighter({
 }) {
   const [copied, setCopied] = useState(false);
 
-  const onClick = useCallback(async (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    e.preventDefault();
-    if (children) {
-      try {
-        await navigator.clipboard.writeText(children);
-        setCopied(true);
-      } catch (error) {
-        console.error("Copy to clipboard failed:", error);
+  const onClick = useCallback(
+    async (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+      e.preventDefault();
+      if (children) {
+        try {
+          await navigator.clipboard.writeText(children);
+          setCopied(true);
+        } catch (error) {
+          console.error("Copy to clipboard failed:", error);
+        }
       }
-    }
-  }, [children]);
+    },
+    [children]
+  );
 
   useEffect(() => {
     if (copied) {

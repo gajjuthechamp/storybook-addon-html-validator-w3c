@@ -1,12 +1,12 @@
 import { ArrowDownIcon } from "@storybook/icons";
 import React, { useState } from "react";
-import { styled } from "@storybook/theming";
+import { styled } from "storybook/theming";
 
 type Item = {
   title: string;
   description: string;
   fromTo: string;
-  extract: string
+  extract: string;
 };
 
 interface ListItemProps {
@@ -71,7 +71,7 @@ const Description = styled.div(({ theme }) => ({
   background: "#FFFCCC",
   fontFamily: theme.typography.fonts.mono,
   fontSize: 12,
-  fontWeight: 'normal',
+  fontWeight: "normal",
   lineHeight: 1.5,
   overflow: "auto",
   wordWrap: "break-word",
@@ -85,10 +85,8 @@ const Code = styled.pre(({ theme }) => ({
   color: "#F00",
   whiteSpace: "pre-wrap",
   textAlign: "left",
-  margin: "10px 20px"
+  margin: "10px 20px",
 }));
-
-    
 
 export const ListItem: React.FC<ListItemProps> = ({ item }) => {
   const [open, onToggle] = useState(false);
@@ -105,13 +103,13 @@ export const ListItem: React.FC<ListItemProps> = ({ item }) => {
           {item.title}
         </HeaderBar>
       </Wrapper>
-      {open ? 
+      {open ? (
         <Description>
-            <div>{item.description}</div>
-            <Code >{item.extract}</Code>
-            <small>{item.fromTo}</small>
-        </Description> 
-        : null}
+          <div>{item.description}</div>
+          <Code>{item.extract}</Code>
+          <small>{item.fromTo}</small>
+        </Description>
+      ) : null}
     </WrapperOuter>
   );
 };
